@@ -1,7 +1,7 @@
-class patN1{
+class patN2{
 	public static void main(String ar[]){
 	   for(int row=0;row<5;row++){
-              for(int col=0;col<=5;col++){
+              for(int col=0;col<=row;col++){
                  System.out.print("*");
       }   
        System.out.println();
